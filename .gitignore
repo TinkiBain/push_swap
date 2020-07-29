@@ -1,4 +1,6 @@
 *.o
 *.d
+*.a
 .DS_Store
 *.gch
+push_swap
