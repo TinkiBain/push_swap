@@ -27,7 +27,8 @@ LIBFT_DIR=libft
 
 include $(LIBFT_DIR)/libft_dependences.mk
 
-SOURCES=main.c
+SOURCES=sab.c	rab.c		pab.c\
+		rrab.c	commands.c	main.c
 
 SRCS=$(addprefix $(SRCS_DIR)/, $(SOURCES))
 OBJS=$(addprefix $(OBJS_DIR)/, $(SOURCES:.c=.o))
